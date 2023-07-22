@@ -9,13 +9,12 @@ const Right = () => {
 	};
 	return (
 		<div className="sm:w-[40%] sm:mt-0 mt-5 w-full ml-10">
-			<h1 className="mt-5 mb-10 text-2xl font-semibold text-left ">
+			<h1 className="mt-5 mb-6 text-2xl font-semibold text-left ">
 				Contact Details
 			</h1>
-			<div className="flex items-start mb-5">
+			<div className="flex items-start mb-5 bg-gray-200 p-3 rounded-sm">
 				<div
-					className="mt-3 mr-4
-					 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
+					className="mt-3 mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
 					style={faPhoneStyle}
 				>
 					<FaPhone className="text-white"></FaPhone>
@@ -26,7 +25,7 @@ const Right = () => {
 					<p>+88 0123 5465</p>
 				</div>
 			</div>
-			<div className="flex items-start mb-5">
+			<div className="flex items-start bg-gray-200 p-3 rounded-sm mb-5">
 				<div
 					className="mt-3 mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
 					style={faPhoneStyle}
@@ -39,7 +38,7 @@ const Right = () => {
 					<p>mail@example.com</p>
 				</div>
 			</div>
-			<div className="flex items-start">
+			<div className="flex bg-gray-200 p-3 rounded-sm items-start">
 				<div
 					className="mt-3 mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
 					style={faPhoneStyle}
