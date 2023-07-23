@@ -6,7 +6,7 @@ import Form from './Form'
 
 const AskQuestion = () => {
   return (
-    <div className='h-screen w-full bg-[#fff] ' >
+    <div className=' w-full bg-[#fff] ' >
         <div className='px-[50px] py-[100px]  '>
             <h1 className='text-center text-[16px] font-medium text-[#676e7c] pb-[15px] '>CUSTOM REQUEST</h1>
             <div>

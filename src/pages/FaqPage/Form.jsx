@@ -52,13 +52,13 @@ const Form = () => {
      }
   }
   return (
-    <div className=' h-[700px] w-[50%]   overflow-hidden  '>
+    <div className=' h-[400px] w-[90%]  md:w-[50%]   overflow-hidden  '>
         <form ref={formRef} onSubmit={() =>{}} className='flex flex-col gap-4'  >
              
-             <div className='flex flex-row gap-4'>
+             <div className='flex flex-col md:flex-row gap-4'>
 
             <label className='flex flex-col w-full'>
-              <input type='text' name='name' placeholder="what's your name" onChange={handleChange} value={form.name} className='bg-[#f4f7fb] py-4 px-6 placeholder:text-secondary text-white text-[16px] rounded-lg outlined-none border-none font-medium' />
+              <input type='text' name='name' placeholder="what's your name" onChange={handleChange} value={form.name} className='bg-[#f4f7fb] py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium' />
             </label>
 
             <label className='flex flex-col w-full'>
@@ -70,7 +70,7 @@ const Form = () => {
               
               <textarea rows={4} name='message' placeholder="what's your message" onChange={handleChange} value={form.message} className='bg-[#f4f7fb] py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium' />
             </label>
-            <div className='flex flex-row justify-between'>
+            <div className='flex flex-wrap gap-4 justify-between'>
 
             <div className=''>
                 <input className='bg-black '  type="checkbox" />
