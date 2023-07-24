@@ -1,10 +1,21 @@
 import Banner from "../../../Shared/Banner/Banner";
+import ChooseSection from "../ChooseSection/ChooseSection";
+import PointSection from "../PointSection/PointSection";
+import ProjectSection from "../ProjectSection/ProjectSection";
+import WelcomeSection from "../WelcomeSection/WelcomeSection";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import TeamMembers from "../TeamMembers/TeamMembers";
 
 const About = () => {
 	return (
 		<div>
 			<Banner title="About Us" linkText="About" />
-			About page
+			<WelcomeSection />
+			<ChooseSection />
+			<ProjectSection />
+			<PointSection />
+			<TeamMembers />
 		</div>
 	);
 };
