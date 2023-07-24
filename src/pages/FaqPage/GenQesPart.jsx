@@ -10,7 +10,7 @@ const GenQesPart = () => {
             <h1 className='text-center text-[16px] font-medium text-[#676e7c] pb-[15px] '>GENERAL QUESTIONS</h1>
             <div>
             <h1 className='text-center font-bold text-[36px] pb-[30px] text-[#041436]	'>Frequently Asked Questions</h1>
-             <div className='flex flex-row justify-center gap-10 mt-[20px] '>
+             <div className='flex flex-wrap justify-center gap-10 mt-[20px] '>
                  <div className='h-[504px] w-[270px] bg-[#fff] border-solid border-[1px] flex flex-col gap-4 py-[50px]  border-[#e9e9e9] rounded-[5px] '>
                         {
                             questionType.map((type, index) =>(
