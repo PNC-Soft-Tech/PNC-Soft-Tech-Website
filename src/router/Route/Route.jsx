@@ -7,6 +7,8 @@ import Contact from "../../pages/ContactPage/Contact/Contact.jsx";
 import About from "../../pages/AboutPage/About/About.jsx";
 import FaqPage from "../../pages/FaqPage/FaqPage.jsx";
 import ServicePage from "../../pages/Services/ServicePage.jsx";
+import TeamPage from "../../pages/Team/TeamPage.jsx";
+import ProjectDetails from "../../pages/ProjectDetails/ProjectDetails.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
 			{
 				path: "/services",
 				element: <ServicePage />,
+			},
+			{
+				path: "/project-details",
+				element: <ProjectDetails />
+			},
+			{
+				path: "/team",
+				element: <TeamPage />
 			},
 		],
 	},

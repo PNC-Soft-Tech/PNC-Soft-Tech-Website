@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React ,{useState} from 'react'
+import { GrAddCircle } from 'react-icons/gr';
+import {  MdOutlineRemoveCircleOutline , MdAddCircleOutline } from 'react-icons/md';
 
 const Cart = ({title, details}) => {
     const [expanded, setExpanded] = useState(true)
@@ -14,8 +16,9 @@ const Cart = ({title, details}) => {
                 <p>+</p>
              </div> */}
              { expanded?
-                <button  className={`px-[1px] text-[16px] font-bold border-solid border-[2px] text-[#fd7e14] border-[#fd7e14]  `}>+</button>:
-                <button  className={`px-[1px] text-[16px] font-bold border-solid border-[2px] text-[#fd7e14] border-[#fd7e14]  `}>x</button>
+                   <MdAddCircleOutline className='text-[22px] text-[#FF5E14] hover:text-black ' />
+               :
+                <MdOutlineRemoveCircleOutline className='text-[22px] hover:text-[#FF5E14] text-black ' />
              }
             
        </div>

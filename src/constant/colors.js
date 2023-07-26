@@ -1,7 +1,12 @@
 /* eslint-disable no-unused-vars */
 import img from './pnc.jpg'
 import React from 'react';
-
+import sabuj from './assets/sabuj.jpg'
+import anis from './assets/anis.jpg'
+import rahat from './assets/rahat.jpg'
+import subal from './assets/subal.jpg'
+import sujan from './assets/sujan.jpg'
+import tarikul from './assets/tarikul.jpg'
 export const Colors = {
 	primary: "#041436",
 	secondary: "#FF5E14",
@@ -89,6 +94,42 @@ const questions = [
 	},
   ];
 
+
+  const teamDetails = [
+	{
+		src: rahat,
+		name: 'Md Rahat',
+		designation: 'Project Manager',
+	},
+	{
+		src: sabuj,
+		name: 'Sabuj Das',
+		designation: 'Frontend Developer',
+	},
+	{
+		src: sujan,
+		name: 'Sujan Mridha',
+		designation: 'Frontend Developer',
+	},
+	{
+		src: tarikul,
+		name: 'Md Tarikul Islam',
+		designation: 'Frontend Developer',
+	},
+	{
+		src: anis,
+		name: 'Md Anis Molla',
+		designation: 'Frontend Developer',
+	},
+	{
+		src: subal,
+		name: 'Subal Karmakar',
+		designation: 'Flutter Developer',
+	},
+
+  
+  ]
+
 //   const serviceList = [
 //         {
 // 			icon: <i className="flaticon-notepad" />,
@@ -107,4 +148,4 @@ const questions = [
 // 		},
 //   ];
 
-  export {questions,serviceDetails  , questionType}
+  export {questions,serviceDetails , teamDetails , questionType}

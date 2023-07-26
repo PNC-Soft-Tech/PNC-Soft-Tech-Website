@@ -77,7 +77,7 @@ const Form = () => {
                 <span className='ml-[10px] font-medium text-[18px] '>Also subscribe us</span>
             </div>
 
-               <button className='bg-[#fd7e14] py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl' >{loadding ? 'Sending ...':'Send Data'}</button>
+               <button className='bg-[#FF5E14] py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl' >{loadding ? 'Sending ...':'Send Data'}</button>
        
             </div>
         </form>
