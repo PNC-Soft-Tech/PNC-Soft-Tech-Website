@@ -15,6 +15,7 @@ const TeamCart = ({teamDetail}) => {
             <h1 className='text-black text-[22px] font-bold leading-[40px] self-center '>{teamDetail.name}</h1>
             <p className=' text-[#676e7c] leading-[26px] font-normal text-[16px] self-center '>{teamDetail.designation}</p>
        </div>
+       
        <div className='flex flex-row justify-evenly px-[20px] mt-[-5px] '>
 
             <div className=' p-1 border-solid border-[1px] border-[#ff5e14] hover:bg-[#ff5e14] rounded-full '>
