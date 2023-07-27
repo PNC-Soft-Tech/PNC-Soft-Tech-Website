@@ -1,54 +1,66 @@
-const Footer = () => {
-	return (
-		<footer className="bg-gray-900 text-white">
-			<div className="container mx-auto py-10 px-4 md:px-8">
-				<div className="flex flex-wrap justify-between items-center">
-					<div className="w-full md:w-1/4 mb-8 md:mb-0">
-						<h3 className="text-lg font-bold">PNC Soft Tech</h3>
-						<p className="text-sm mt-2">
-							PNC Soft Tech is dedicated to providing innovative solutions for
-							businesses worldwide.
-						</p>
-					</div>
-					<div className="w-full md:w-1/4 mb-8 md:mb-0">
-						<h4 className="text-base font-bold">Contact Us</h4>
-						<p className="text-sm mt-2">Email: info@youritcompany.com</p>
-						<p className="text-sm">Phone: +1 123-456-7890</p>
-					</div>
-					<div className="w-full md:w-1/4 mb-8 md:mb-0">
-						<h4 className="text-base font-bold">Follow Us</h4>
-						<div className="flex mt-2">
-							<a
-								href="#"
-								className="text-white hover:text-blue-400 transition duration-300 mr-4"
-							>
-								Facebook
-							</a>
-							<a
-								href="#"
-								className="text-white hover:text-blue-400 transition duration-300 mr-4"
-							>
-								Twitter
-							</a>
-							<a
-								href="#"
-								className="text-white hover:text-blue-400 transition duration-300"
-							>
-								LinkedIn
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="bg-gray-800 py-4">
-				<div className="container mx-auto px-4 md:px-8 text-center">
-					<p className="text-sm text-white">
-						© {new Date().getFullYear()} Your IT Company. All rights reserved.
-					</p>
-				</div>
-			</div>
-		</footer>
-	);
-};
+/* eslint-disable no-unused-vars */
+import React, { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
+import { BiLogoFacebook , BiLogoLinkedin, BiLogoGmail, BiLogoWhatsapp } from 'react-icons/bi';
+import { BsTelephoneInbound } from 'react-icons/bs'
 
-export default Footer;
+const Footer = () => {
+  const [impLinks, setImpLinks] = useState([])
+  const [contactInfo, setContactInfo] = useState({})
+
+
+
+  return (
+    <div className=" bg-gradient-to-r from-emerald-500 to-emerald-700 mt-[10px] text-white font-serif text-sm leading-4 sm:p-[10px] sm:p-[0] sm:m-[0] sticky  ">
+      <div className=" flex flex-col pt-[20px] ml-[20px] gap-4  sm:flex-row sm:justify-around mb-[20px]  ">
+        <div className="flex flex-col w-84 gap-4  box-border ">
+          <div className="flex flex-row gap-2 ">
+            <h3 className=" flex flex-row gap-1 text-[15px] text-[#fff] font-bold p-0 m-0 ">
+              <p>
+                {" "}
+                <BsTelephoneInbound />{" "}
+              </p>
+              <p>মোবাইলঃ</p>
+            </h3>
+            <p>{contactInfo?.phone || '01712 154134'}</p>
+          </div>
+
+          <div className="flex flex-row gap-1 ">
+            <h3 className=" flex flex-row gap-1 text-[15px] text-[#fff] font-bold p-0 m-0 ">
+              <p>
+                {" "}
+                <BiLogoGmail />{" "}
+              </p>
+              <p>ই-মেইলঃ</p>
+            </h3>
+            <p> {contactInfo?.email || 'bholabarassociaton2k23@gmail.com'}</p>
+          </div>
+
+          <div className="flex flex-row gap-2 sm:ml-0 ">
+				<a href="https://www.facebook.com/pncsoft.tech" className='cursor-pointer  p-1 border-solid border-[0px] border-[#fff]  hover:bg-[#fff] rounded-full '>
+					<BiLogoFacebook className='text-[25px] text-[#fff] hover:text-[#ff5e14] ' />
+				</a>
+	
+				<a href="https://www.linkedin.com/company/pnc-soft-tech/" className=' p-1 border-solid border-[0px] border-[#fff] hover:bg-[#fff] rounded-full '>
+					<BiLogoLinkedin className='text-[25px] text-[#fff] hover:text-[#ff5e14] ' />
+				</a>
+
+				<div className=' p-1 border-solid border-[0px] border-[#fff] hover:bg-[#fff] rounded-full '>
+					<BiLogoWhatsapp className='text-[25px] text-[#fff] hover:text-[#ff5e14] ' />
+				</div>
+          </div>
+        </div>
+
+       
+
+      </div>
+
+      <div className="bg-[#0b4738] p-[10px]  flex flex-col sm:flex-row justify-center lg:justify-between pl-[20px] sm:pl-[65px] sm:pr-[65px] text-[15px] text-[#f2f2f2] ">
+        <p> Copyright © 2023 by PNC SOFT TECH </p>
+        <p className="pl-[50px] ">Design and Develop by PNC SOFT TECH</p>
+      </div>
+    </div>
+  )
+}
+
+export default Footer

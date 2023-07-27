@@ -4,12 +4,12 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import LogoImage from './logoImage.jpg'
 import { BiLogoFacebook , BiLogoLinkedin, BiLogoSkype, BiLogoWhatsapp } from 'react-icons/bi';
 
-
+//bg-gradient-to-r from-teal-200 to-teal-500
 export default function Tittle() {
   
   return (
     <nav
-      className="title-container h-[80px] bg-teal-600  pb-[20px]  "
+      className="title-container h-[80px] bg-gradient-to-r from-slate-900 to-slate-700  "
       style={{ padding: "10px 0" }}
     >
       <div className=" flex flex-row justify-between pt-[5px]  px-[40px] ">

@@ -28,7 +28,7 @@ const Banner = ({ title, linkText }) => {
 	};
 
 	return (
-		<div style={elementStyle} className="w-full h-[70vh] mt-3 ">
+		<div style={elementStyle} className="w-auto h-[70vh] m-4 ">
 			<div style={overlayStyle}>
 				<div
 					style={{ zIndex: 100 }}
