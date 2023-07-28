@@ -2,10 +2,11 @@
 import React from 'react'
 import ServiceCart from './ServiceCart'
 import { serviceDetails } from '../../constant/colors'
+import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
-    <div className='h-auto w-full bg-[#fff] ' >
+    <Link to='/service-details' className='h-auto w-full bg-[#fff] ' >
         <div className='px-[50px] py-[100px]  '>
             <h1 className='text-center text-[16px] font-medium text-[#676e7c] pb-[15px] '>OUR SERVICES</h1>
             <div>
@@ -20,7 +21,7 @@ const Services = () => {
              </div>
             </div>
         </div>
-    </div>
+    </Link>
   )
 }
 

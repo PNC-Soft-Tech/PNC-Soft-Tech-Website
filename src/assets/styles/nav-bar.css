@@ -72,14 +72,17 @@
   .navigation-bar-custom .nav-toggle-button {
     position: absolute;
     right: 45px;
-    top: 24px;
+    top: 20px;
     height: initial !important;
     width: initial !important;
   }
+  .navigation-bar-custom .nav-toggle-button  :hover{
+    background-color: #cec3bf;
+   color: black;
+    border-radius: 100%;
+  }
   .navigation-bar-custom .nav-toggle-button > span {
     padding: 4px 7px;
-    border: 1px solid #fff;
-    border-radius: 4px;
   }
   
   .navigation-bar-custom .mobile-nav-open {

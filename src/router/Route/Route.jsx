@@ -7,7 +7,7 @@ import About from "../../pages/AboutPage/About/About.jsx";
 import FaqPage from "../../pages/FaqPage/FaqPage.jsx";
 import ServicePage from "../../pages/Services/ServicePage.jsx";
 import TeamPage from "../../pages/Team/TeamPage.jsx";
-import ProjectDetails from "../../pages/ProjectDetails/ProjectDetails.jsx";
+import ServiceDetails from "../../pages/ProjectDetails/ProjectDetails.jsx";
 import Projects from "../../pages/ProjectsPage/Projects/Projects.jsx";
 import MainLayout from "../../Layout/MainLayout.jsx";
 import ProjectLayout from "../../Layout/ProjectLayout.jsx";
@@ -38,8 +38,8 @@ const router = createBrowserRouter([
 				element: <ServicePage />,
 			},
 			{
-				path: "/project-details",
-				element: <ProjectDetails />
+				path: "/service-details",
+				element: <ServiceDetails />
 			},
 			{
 				path: "/team",

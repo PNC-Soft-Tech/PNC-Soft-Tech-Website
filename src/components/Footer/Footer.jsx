@@ -12,12 +12,13 @@ const Footer = () => {
 
   return (
     <div className=" bg-gradient-to-r from-emerald-500 to-emerald-700 mt-[10px] text-white font-serif text-sm leading-4 sm:p-[0] sm:m-[0] sticky  ">
-      <div className="flex flex-row justify-evenly py-10 gap-4">
+      <div className="flex flex-col md:flex-row justify-evenly py-10 gap-8 md:gap-4">
+      <h1 className="text-[25px] self-center text-[#ffff] font-normal tracking-widest md:hidden	" >PNC SOFT TECH</h1>
 
           <div className="flex flex-col gap-4 ">
-            <h1 className="text-[20px] text-[#ffff] font-bold leading-[30px] " >Contact Us</h1>
-             <div className="flex flex-row gap-2 ">
-                <h3 className=" flex flex-row gap-1 text-[15px] text-[#fff] font-bold p-0 m-0 ">
+            <h1 className="text-[20px] self-center  text-[#ffff] font-bold leading-[30px] " >Contact Us</h1>
+             <div className="flex flex-row gap-2 self-center  ">
+                <h3 className=" flex flex-row gap-1 text-[15px]  text-[#fff] font-bold p-0 m-0 ">
                   <p>
                     {" "}
                     <BsTelephoneInbound />{" "}
@@ -39,9 +40,9 @@ const Footer = () => {
               </div>
           </div>
 
-          <div className=" flex flex-col  gap-4  sm:flex-row sm:justify-around   ">
+          <div className=" flex flex-col self-center  gap-4  sm:flex-row sm:justify-around   ">
             <div className="flex flex-col w-84 gap-4  box-border ">
-              <h1 className="text-[25px] text-[#ffff] font-normal tracking-widest	" >PNC SOFT TECH</h1>
+              <h1 className="text-[25px] self-center text-[#ffff] font-normal tracking-widest hidden md:inline	" >PNC SOFT TECH</h1>
 
               <p className="text-[20px] text-[#ffff] leading-[25px] self-center ">Dhaka, Bangladesh</p>
 
@@ -61,8 +62,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h1>Contact us bro</h1>
+          <div className="self-center">
+            <h1 className="self-center">Contact us bro</h1>
           </div>
       </div>
 

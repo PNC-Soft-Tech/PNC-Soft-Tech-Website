@@ -30,10 +30,6 @@ export const navData = [
         path: '/about'
       },
       {
-        title: 'Project Details',
-        path: '/project-details'
-      },
-      {
         title: 'Team',
         path: '/team'
       },

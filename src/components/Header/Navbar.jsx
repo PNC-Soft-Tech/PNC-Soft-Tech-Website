@@ -60,7 +60,7 @@ export default function NavBar() {
 
       <IconButton
         variant="text"
-        className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden nav-toggle-button"
+        className="ml-auto h-6 w-6 text-inherit  focus:bg-transparent active:bg-transparent lg:hidden nav-toggle-button  "
         ripple={false}
         onClick={() => setOpenNav(!openNav)}
       >

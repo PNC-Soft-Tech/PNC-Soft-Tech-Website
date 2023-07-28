@@ -1,9 +1,15 @@
-const Home = () => {
-	return (
-		<div>
-			<h2>Home</h2>
-		</div>
-	);
-};
+/* eslint-disable no-unused-vars */
+import React from 'react'
+import Homedetails from './Homedetails'
+import Services from '../Services/Services'
 
-export default Home;
+const Home = () => {
+  return (
+	<div>
+		<Homedetails />
+		<Services />
+	</div>
+  )
+}
+
+export default Home

@@ -2,7 +2,7 @@
 import React from 'react'
 import Banner from '../../Shared/Banner/Banner'
 import Details from './Details'
-const ProjectDetails = () => {
+const ServiceDetails = () => {
   return (
     <div>
         <Banner title="Project Details" linkText="Project Details" />
@@ -12,4 +12,4 @@ const ProjectDetails = () => {
   )
 }
 
-export default ProjectDetails
+export default ServiceDetails
