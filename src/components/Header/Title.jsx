@@ -19,7 +19,7 @@ export default function Tittle() {
             <img src={LogoImage} className ='h-full w-full object-cover rounded-full  ' alt="bholaBar" />
           </Link>
         </div>
-        <div className =' text-[24px] self-center md:text-[30px] text-[#fff] ' >
+        <div className =' text-[24px] font-bold leading-[40px] self-center md:text-[30px] text-[#fff] ' >
             <h1>Welcome To PNC Soft Tech</h1>
         </div>
 
