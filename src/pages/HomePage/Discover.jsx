@@ -5,9 +5,9 @@ import React from 'react'
 const Discover = () => {
   return (
     <div className='bg-[#f4f7fb] w-full h-auto flex flex-row justify-evenly gap-14 px-[80px] py-[130px] '>
-            <div className=' h-screen w-[45%] '
+            <div className=' h-screen w-[45%] z-10 '
                  style={{
-                    backgroundImage: `https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500`,
+                    backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDcKdrQCLtPkJMnlPGKRmSeC9FhKdc-6kpaw&usqp=CAU)`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     opacity:1

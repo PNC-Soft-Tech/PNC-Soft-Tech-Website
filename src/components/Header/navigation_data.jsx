@@ -3,44 +3,47 @@ export const navData = [
       title: 'Home',
       path: '/'
     },
-  
     {
-      title: 'Contact',
-      path: '/contact'
+      title: 'Services',
+      path: '/services'
     },
     {
-        title: 'Projects',
-        subLinks: [
-          {
-            title: 'Projects1',
-            path: '/projects'
-          },
-          {
-            title: 'Projects2',
-            path: '/projects'
-          },
-          {
-            title: 'Projects3',
-            path: '/projects'
-          }
-        ]
-      },
+      title: 'Projects',
+      subLinks: [
+        {
+          title: 'Projects1',
+          path: '/projects'
+        },
+        {
+          title: 'Projects2',
+          path: '/projects'
+        },
+        {
+          title: 'Projects3',
+          path: '/projects'
+        }
+      ]
+    },
     {
-        title: 'About Us',
-        path: '/about'
-      },
-      {
-        title: 'Team',
-        path: '/team'
-      },
-      {
-        title: 'Services',
-        path: '/services'
-      },
-      {
-        title: 'Faq',
-        path: '/faq'
-      },
+      title: 'Team',
+      path: '/team'
+    },
+    {
+      title: 'FAQ',
+      path: '/faq'
+    },
+    
+    {
+      title: 'About Us',
+      path: '/about'
+    },
+  
+    {
+      title: 'Contact Us',
+      path: '/contact'
+    },
+   
+      
 
     ]
 

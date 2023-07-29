@@ -23,7 +23,7 @@ const ReliablePart = () => {
                             </p>
                    </div>
 
-                  <div className=' py-[110px] px-[80px] flex flex-col self-center bg-[#FF5E14] w-[950px] h-[440px] z-40 '>
+                  <div className=' py-[110px] px-[80px] flex flex-col self-center bg-[#FF5E14] w-[900px] h-[420px] z-40 '>
                           <div className='h-20 w-20 mb-2  self-center'>
                           <img src ={img} />
                           </div>
