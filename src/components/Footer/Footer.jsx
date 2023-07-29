@@ -47,15 +47,15 @@ const Footer = () => {
               <p className="text-[20px] text-[#ffff] leading-[25px] self-center ">Dhaka, Bangladesh</p>
 
               <div className="flex flex-row gap-2 sm:ml-0 self-center ">
-                  <a href="https://www.facebook.com/pncsoft.tech" className='cursor-pointer bg-emerald-800  p-2 border-solid border-[0px] border-[#fff]  hover:bg-[#fff] rounded-full '>
+                  <a href="https://www.facebook.com/pncsoft.tech" className='cursor-pointer bg-emerald-800  p-2 border-solid border-[0px] border-[#fff]  hover:bg-[#fff] rounded-full transition ease-in duration-700 '>
                       <BiLogoFacebook className='text-[25px] text-[#fff] hover:text-[#ff5e14] ' />
                     </a>
               
-                    <a href="https://www.linkedin.com/company/pnc-soft-tech/" className=' p-2 border-solid border-[0px] bg-emerald-800 border-[#fff] hover:bg-[#fff] rounded-full '>
+                    <a href="https://www.linkedin.com/company/pnc-soft-tech/" className=' p-2 border-solid border-[0px] bg-emerald-800 border-[#fff] hover:bg-[#fff] rounded-full transition ease-in duration-700 '>
                       <BiLogoLinkedin className='text-[25px] text-[#fff] hover:text-[#ff5e14] ' />
                     </a>
 
-                    <div className=' p-2 bg-emerald-800 border-solid border-[0px] border-[#fff] hover:bg-[#fff] rounded-full '>
+                    <div className=' p-2 bg-emerald-800 border-solid border-[0px] border-[#fff] hover:bg-[#fff] rounded-full transition ease-in duration-700'>
                       <BiLogoWhatsapp className='text-[25px] text-[#fff] hover:text-[#ff5e14] ' />
                     </div>
               </div>
