@@ -15,8 +15,8 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row justify-between px-10 md:px-20 py-10 gap-8 md:gap-12">
           
           <div className=" w-[100%] lg:w-[25%] flex flex-col gap-4 ">
-              <h1 className="text-[25px] mb-4 text-[#ffff] font-semibold tracking-widest" >PNC SOFT TECH</h1>
-              <p className=" text-[18px] text-[#fff] font-normal leading-[25px] ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, libero, atque a odio explicabo minus hic aliquam qui ut deserunt, architecto face
+              <h1 className="text-[25px] mb-4 text-[#ffff] font-semibold tracking-widest" >PNC Soft Tech</h1>
+              <p className=" text-[18px] text-[#fff] font-normal leading-[25px] ">PNC Soft Tech is a mobile app and web development company that offers a wide range of services and features using various technologies
               </p>
           </div>
 
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-[#081643] p-[20px]  text-[15px] text-[#f2f2f2] ">
-        <p className="text-center text-[#fff] text-[17px] leading-[30px] space-x-2 "> Copyright © 2023 by PNC SOFT TECH </p>
+        <p className="text-center text-[#fff] text-[17px] leading-[30px] tracking-widest "> Copyright © 2023 by PNC Soft Tech </p>
       </div>
     </div>
   )

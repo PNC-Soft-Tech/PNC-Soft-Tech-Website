@@ -8,13 +8,8 @@ const Cart = ({title, details}) => {
     const [expanded, setExpanded] = useState(true)
   return (
     <div className='h-auto w-full mb-[10px] bg-[#fff] pl-[25px] border-solid border-[1px] border-[#e9e9e9] rounded-[5px] '>
-        <div onClick={() => setExpanded(!expanded)} className='flex flex-row justify-between py-[20px] pr-[25px]'>
+        <div onClick={() => setExpanded(!expanded)} className='flex flex-row justify-between py-[20px] pr-[25px] transition ease-in duration-700'>
             <p className='text-[16px] text-[#041436] font-medium   '>{title}</p>
-             {/* <button className=' p-[0px] m-0 h-[20px] w-[20px] text-[18px]  relatives  text-[#fd7e14] border-solid border-[2px] border-[#fd7e14]  '>+</button>
-              */}
-             {/* <div className=' h-[20px] w-[20px] text-[18px] text-center   text-[#fd7e14] border-solid border-[2px] border-[#fd7e14] '>
-                <p>+</p>
-             </div> */}
              { expanded?
                    <MdAddCircleOutline className='text-[22px] text-[#FF5E14] hover:text-black ' />
                :

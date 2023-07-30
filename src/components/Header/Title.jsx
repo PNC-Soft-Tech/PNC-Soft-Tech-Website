@@ -9,7 +9,7 @@ export default function Tittle() {
   
   return (
     <nav
-      className="title-container h-[80px] bg-gradient-to-r from-slate-900 to-slate-700  "
+      className="title-container h-[80px] bg-gradient-to-r from-slate-900 to-slate-700   "
       style={{ padding: "10px 0" }}
     >
       <div className=" flex flex-row justify-between pt-[5px]  px-[40px] ">
@@ -19,7 +19,7 @@ export default function Tittle() {
             <img src={LogoImage} className ='h-full w-full object-cover rounded-full  ' alt="bholaBar" />
           </Link>
         </div>
-        <div className =' text-[24px] font-bold leading-[40px] self-center md:text-[30px] text-[#fff] ' >
+        <div className =' text-[20px] font-bold leading-[40px] self-center md:text-[30px] text-[#fff] ' >
             <h1>Welcome To PNC Soft Tech</h1>
         </div>
 

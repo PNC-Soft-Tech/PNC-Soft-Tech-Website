@@ -10,10 +10,10 @@ const Header = () => {
 		color: Colors.textColor,
 	};
 	return (
-		<div className={`relative`}>
+		<>
 			<Tittle />
-            <NavBar />
-		</div>
+            <NavBar  />
+		</>
 	);
 };
 

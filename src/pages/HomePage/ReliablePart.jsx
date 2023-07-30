@@ -5,16 +5,17 @@ import img from '../../assets/img/banner.jpg'
 const ReliablePart = () => {
   return (
     <div className='w-full h-auto bg-white flex flex-col  self-center py-10 '>
-        <div className='self-center flex flex-col mt-20 mb-16 '>
-            <h1 className='text-black text-[50px] leading-[70px] font-bold self-center pb-5 ' >Welcom to PNC Soft Tech</h1>
-            <p className=' text-[18px] text-black font-normal self-center '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <div className='self-center mx-8  flex flex-col mt-20 mb-16 '>
+            <h1 className='text-black text-[50px] leading-[70px] font-bold text-center pb-5 ' >Welcom to PNC Soft Tech</h1>
+            <p className=' text-[18px]  lg:mx-[20%] text-black font-normal text-center '>
+            PNC Soft Tech is a mobile app and web development company that offers a wide range of services and features using various technologies
             </p>  
-             <p className=' text-[18px] text-black font-normal self-center '> Lorem Ipsum has been the industry's standard</p>
         </div>
 
         <div className='mt-10 mx-20 text-[#fff] '>
-            <div className=' bg-[#041436] flex flex-row w-full h-[370px] '>
-                  <div className=' p-8 flex flex-col self-center '>
+            <div className='  flex flex-col md:flex-row gap-8 lg:gap-0  w-full h-auto lg:h-[370px] '>
+                 
+                  <div className=' p-8 bg-[#041436] flex flex-col self-center '>
                        <div className='h-20 w-20 mb-2  self-center'>
                         <img src ={img} />
                        </div>
@@ -23,7 +24,7 @@ const ReliablePart = () => {
                             </p>
                    </div>
 
-                  <div className=' py-[110px] px-[80px] flex flex-col self-center bg-[#FF5E14] w-[900px] h-[420px] z-40 '>
+                  <div className=' p-8 lg:py-[110px] lg:px-[80px] flex flex-col self-center bg-[#FF5E14] h-auto w-auto lg:w-[900px] lg:h-[420px] z-40 '>
                           <div className='h-20 w-20 mb-2  self-center'>
                           <img src ={img} />
                           </div>
@@ -32,7 +33,7 @@ const ReliablePart = () => {
                             </p>
                    </div>
 
-                   <div className=' p-8 flex flex-col self-center '>
+                   <div className=' p-8 bg-[#041436] flex flex-col self-center '>
                            <div className='h-24 w-24 mb-2 self-center'>
                            <img src ={img} className=' object-cover ' />
                            </div>
