@@ -34,7 +34,9 @@ const Banner = ({ title, linkText }) => {
 					style={{ zIndex: 100 }}
 					className="z-50 flex flex-col items-center justify-center h-full"
 				>
-					<h2 className="mb-3 text-6xl font-semibold">{title}</h2>
+					<h2 className="mb-3 text-3xl font-semibold text-center sm:text-6xl">
+						{title}
+					</h2>
 
 					<h5>
 						<Link className="ml-2" to="/">
