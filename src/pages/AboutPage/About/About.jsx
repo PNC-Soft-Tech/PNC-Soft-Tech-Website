@@ -7,10 +7,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TeamMembers from "../TeamMembers/TeamMembers";
 import Feedbacks from "../Feedbacks/Feedbacks";
+import { ScrollToTop } from "../../../constant/ScrollToTop";
 
 const About = () => {
 	return (
 		<div>
+			<ScrollToTop />
 			<Banner title="About Us" linkText="About" />
 			<WelcomeSection />
 			<ChooseSection />
