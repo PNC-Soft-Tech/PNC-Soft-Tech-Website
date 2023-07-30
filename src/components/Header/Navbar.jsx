@@ -52,7 +52,7 @@ export default function NavBar() {
   )
 
   return (
-    <Navbar className="  bg-gradient-to-r from-[#ff5e14] to-[#da5213]  rounded-none justify-between box-border styles.headerColor navigation-bar-custom sticky top-0 ">
+    <Navbar className="  bg-gradient-to-r from-[#071952] to-[#071952]  rounded-none justify-between box-border styles.headerColor navigation-bar-custom sticky top-0 ">
       
       <div className=" hidden lg:block ">
         <NavList />
