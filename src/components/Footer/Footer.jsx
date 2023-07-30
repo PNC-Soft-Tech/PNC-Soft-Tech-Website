@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <div className=" bg-gradient-to-r from-[#0b1d58] to-[#071952] mt-[10px] text-white font-serif text-sm leading-4 sm:p-[0] sm:m-[0] sticky  ">
-      <div className="flex flex-col lg:flex-row justify-between px-10 md:px-20 py-10 gap-8 md:gap-12">
+      <div className="flex flex-col justify-between gap-8 px-10 py-10 lg:flex-row md:px-20 md:gap-12">
           
           <div className=" w-[100%] lg:w-[25%] flex flex-col gap-4 ">
               <h1 className="text-[25px] mb-4 text-[#ffff] font-semibold tracking-widest" >PNC Soft Tech</h1>
@@ -22,7 +22,7 @@ const Footer = () => {
 
           <div className="flex flex-col  gap-4 w-[100%] lg:w-[25%] ">
             <h1 className="text-[25px] mb-4 text-[#ffff] font-semibold tracking-widest" >Quick Contact</h1>
-             <div className="flex flex-row gap-2   ">
+             <div className="flex flex-row gap-2 ">
                 <h3 className=" flex flex-row gap-3 text-[15px]  text-[#fff] font-bold p-0 m-0 ">
                   <p className="text-[18px] text-[#fff] font-normal ">
                     <BsTelephoneInbound />
@@ -31,7 +31,7 @@ const Footer = () => {
                 <p className="text-[18px] text-[#fff] font-normal ">+880 1793-278360</p>
               </div>
 
-              <div className="flex flex-row gap-3  ">
+              <div className="flex flex-row gap-3 ">
                 <h3 className=" flex flex-row gap-1 text-[15px] text-[#fff] font-bold p-0 m-0 ">
                   <p className="text-[18px] text-[#fff] font-normal ">
                     <BiLogoGmail />
@@ -51,7 +51,7 @@ const Footer = () => {
 
 
           <div className=" flex flex-col  gap-4  sm:flex-row w-[100%] lg:w-[25%] ">
-            <div className="flex flex-col w-84 gap-4  box-border ">
+            <div className="box-border flex flex-col gap-4 w-84 ">
               <h1 className="text-[25px] mb-4 text-[#ffff] font-semibold tracking-widest" >Other Page</h1>
 
               <div className="flex flex-row gap-3 ">

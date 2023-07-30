@@ -33,7 +33,7 @@ const Projects = ({ project_type }) => {
 	}
 
 	return (
-		<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-5">
+		<div className="grid grid-cols-1 gap-5 mb-10 lg:grid-cols-3 md:grid-cols-2">
 			{projects.map((project, index) => {
 				return <Project key={index} project={project} />;
 			})}
