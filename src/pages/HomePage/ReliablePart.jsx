@@ -12,7 +12,7 @@ const ReliablePart = () => {
             </p>  
         </div>
 
-        <div className='mt-10 mx-20 text-[#fff] '>
+        <div className='mt-10 mx-10 lg:mx-20 text-[#fff] '>
             <div className='  flex flex-col md:flex-row gap-8 lg:gap-0  w-full h-auto lg:h-[370px] '>
                  
                   <div className=' p-8 bg-[#041436] flex flex-col self-center '>
