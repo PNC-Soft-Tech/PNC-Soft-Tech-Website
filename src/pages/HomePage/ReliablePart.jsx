@@ -3,6 +3,7 @@
 import React from 'react'
 import img from '../../assets/img/banner.jpg'
 const ReliablePart = () => {
+  
   return (
     <div className='w-full h-auto bg-white flex flex-col  self-center py-10 '>
         <div className='self-center mx-8  flex flex-col mt-20 mb-16 '>
