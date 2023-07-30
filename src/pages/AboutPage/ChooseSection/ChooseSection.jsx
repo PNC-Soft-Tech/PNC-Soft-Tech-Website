@@ -13,7 +13,7 @@ const Card = ({ type, text, subText }) => {
 	return (
 		<div className="relative mt-5  lg:w-[46%] w-[95%]">
 			<div
-				className="mt-3 top-1 -left-4  absolute mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
+				className="absolute flex items-center justify-center w-12 h-12 mt-3 mr-4 border-4 rounded-full top-1 -left-4"
 				style={faPhoneStyle}
 			>
 				{type === "phone" ? (
@@ -22,9 +22,9 @@ const Card = ({ type, text, subText }) => {
 					<AiTwotoneMail className="text-white"></AiTwotoneMail>
 				)}
 			</div>
-			<div className="border-2 w-full ml-2 px-5 py-4 rounded-md shadow-sm">
+			<div className="w-full px-5 py-4 ml-2 border-2 rounded-md shadow-sm">
 				<h2 className="ml-2 font-semibold text-gray-400">{text}</h2>
-				<h3 className="ml-2 text-sm mt-2">{subText}</h3>
+				<h3 className="mt-2 ml-2 text-sm">{subText}</h3>
 			</div>
 		</div>
 	);
@@ -43,22 +43,22 @@ const Left = () => {
 	return (
 		<div className="md:w-[45%] sm:[50%] w-[90%] mx-auto mt-10 md:mx-10 sm:mx-5">
 			<div>
-				<h3 className="font-semibold text-xl text-gray-300 mb-4">
+				<h3 className="mb-4 text-xl font-semibold text-gray-300">
 					WHY CHOOSE US
 				</h3>
-				<h1 className="sm:text-2xl text-xl font-bold text-gray-500 mb-4">
+				<h1 className="mb-4 text-xl font-bold text-gray-500 sm:text-2xl">
 					<span style={spanHederElement} className="">
 						We Ensure The Quality{" "}
 					</span>
 					Of Your Dream Construction
 				</h1>
-				<p className="mb-4 text-gray-600 font-medium">
+				<p className="mb-4 font-medium text-gray-600">
 					Rorem Ipsum is simply dummy text of the printin and type setting
 					industry. Lorem Ipsum has been the industry&apos;s standard dummy text
 					ever since the 1500s, when an unknown
 				</p>
 
-				<p className="mb-4 text-gray-600 font-medium">
+				<p className="mb-4 font-medium text-gray-600">
 					Printer took a galley of type and scrambled it to make a type speci
 					menu book. It has survived not only five centuries, but also the leap
 					intoelectronic typesetting, remaining essentially unchanget was
@@ -66,7 +66,7 @@ const Left = () => {
 				</p>
 			</div>
 			<div className="flex items-center">
-				<img src={img1} className="w-12 h-12 rounded-full mr-4" alt="" />
+				<img src={img1} className="w-12 h-12 mr-4 rounded-full" alt="" />
 				<div>
 					<h2 className="text-xl">Md. Sina Khan</h2>
 					<h3 className="text-base text-gray-500">Project Manager</h3>
@@ -117,7 +117,7 @@ const ChooseSection = () => {
 		};
 	}, []);
 	return (
-		<div className="flex md:flex-row-reverse flex-col py-20 my-28 justify-between md:px-16 sm:px-10 px-5">
+		<div className="flex flex-col justify-between pb-[100px] md:flex-row-reverse md:px-16 sm:px-10">
 			<Left />
 			{isScreenLarge && <Right />}
 		</div>

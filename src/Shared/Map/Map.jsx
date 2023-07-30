@@ -40,7 +40,9 @@ const Map = ({ longitude, latitude }) => {
 		};
 	}, [latitude, longitude]);
 
-	return <div id="map" style={{ width: "100%", height: "400px" }}></div>;
+	return (
+		<div id="map" className="" style={{ width: "100%", height: "400px" }}></div>
+	);
 };
 
 Map.propTypes = {

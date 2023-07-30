@@ -8,13 +8,13 @@ const Right = () => {
 		borderColor: Colors.secondary,
 	};
 	return (
-		<div className="sm:w-[40%] sm:mt-0 mt-5 w-full ml-10">
+		<div className="sm:w-[40%] sm:mt-0 mt-5 w-full sm:ml-10 ml-0 sm:px-0 px-5 ">
 			<h1 className="mt-5 mb-6 text-2xl font-semibold text-left ">
 				Contact Details
 			</h1>
-			<div className="flex items-start mb-5 bg-gray-200 p-3 rounded-sm">
+			<div className="flex items-start p-3 mb-5 bg-gray-200 rounded-sm">
 				<div
-					className="mt-3 mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
+					className="flex items-center justify-center w-12 h-12 mt-3 mr-4 border-4 rounded-full"
 					style={faPhoneStyle}
 				>
 					<FaPhone className="text-white"></FaPhone>
@@ -25,9 +25,9 @@ const Right = () => {
 					<p>+88 0123 5465</p>
 				</div>
 			</div>
-			<div className="flex items-start bg-gray-200 p-3 rounded-sm mb-5">
+			<div className="flex items-start p-3 mb-5 bg-gray-200 rounded-sm">
 				<div
-					className="mt-3 mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
+					className="flex items-center justify-center w-12 h-12 mt-3 mr-4 border-4 rounded-full"
 					style={faPhoneStyle}
 				>
 					<AiTwotoneMail className="text-white"></AiTwotoneMail>
@@ -38,9 +38,9 @@ const Right = () => {
 					<p>mail@example.com</p>
 				</div>
 			</div>
-			<div className="flex bg-gray-200 p-3 rounded-sm items-start">
+			<div className="flex items-start p-3 bg-gray-200 rounded-sm">
 				<div
-					className="mt-3 mr-4 border-4 rounded-full  w-12 h-12 flex items-center justify-center"
+					className="flex items-center justify-center w-12 h-12 mt-3 mr-4 border-4 rounded-full"
 					style={faPhoneStyle}
 				>
 					<FaLocationDot className="text-white"></FaLocationDot>
