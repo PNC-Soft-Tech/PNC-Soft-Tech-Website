@@ -7,6 +7,7 @@ import ReliablePart from './ReliablePart'
 import SuccessList from './SuccessList'
 import Discover from './Discover'
 import { ScrollToTop } from '../../constant/ScrollToTop'
+import BestPart from './BestPart'
 
 const Home = () => {
   return (
@@ -16,8 +17,9 @@ const Home = () => {
 		<Homedetails />
 		<ReliablePart />
 		<Services />
-		<SuccessList />
 		<Discover />
+		<SuccessList />
+		<BestPart />
 	</div>
   )
 }

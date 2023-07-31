@@ -7,10 +7,16 @@ import rahat from "../assets/profile/img/rahat.JPG";
 import subal from "../assets/profile/img/subal.jpg";
 import sujan from "../assets/profile/img/sujan.jpg";
 import tarikul from "../assets/profile/img/tarikul.jpg";
+
 export const Colors = {
 	primary: "#041436",
 	secondary: "#FF5E14",
 	textColor: "#ffff",
+	secondaryBgColor: '#f4f7fb',
+	secondaryTextColor: '#041436',
+	primaryTextColor: '#fff',
+	primaryBgColor: '#071952',
+	excitetedColor: '#ff5e14'
 };
 
 const questions = [
@@ -137,4 +143,31 @@ const teamDetails = [
 	},
 ];
 
-export { questions, serviceDetails, teamDetails, questionType };
+const qualites =[
+	{
+		title: 'Knowledge & Experience',
+		details: 'Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry standard.'
+	},
+	{
+		title: 'Customer Focused',
+		details: 'Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry standard.'
+	},
+	{
+		title: 'Build Guarantee',
+		details: 'Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry standard.'
+	},
+	{
+		title: 'Quality sub-trades',
+		details: 'Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry standard.'
+	},
+	{
+		title: 'Obligation Free',
+		details: 'Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry standard.'
+	},
+	{
+		title: 'Obligation Free',
+		details: 'Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry standard.'
+	},
+]
+
+export { questions, serviceDetails, teamDetails, questionType , qualites };
