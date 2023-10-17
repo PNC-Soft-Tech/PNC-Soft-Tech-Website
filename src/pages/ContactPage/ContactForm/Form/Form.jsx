@@ -1,10 +1,9 @@
-import React from "react";
 import Left from "../Left/Left";
 import Right from "../Right/Right";
 
 const Form = () => {
 	return (
-		<div className="flex sm:flex-row flex-col my-10">
+		<div className="flex flex-col my-10 sm:flex-row ">
 			<Left></Left>
 			<Right></Right>
 		</div>

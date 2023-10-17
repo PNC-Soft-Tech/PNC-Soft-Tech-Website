@@ -36,8 +36,8 @@ const Left = () => {
 		backgroundColor: Colors.secondary,
 	};
 	return (
-		<div className="sm:w-[60%] w-full ">
-			<h1 className="mx-5 text-2xl font-semibold text-left mb-5 ">
+		<div className="sm:w-[60%] w-full sm:px-0 px-5 ">
+			<h1 className="mx-5 mb-5 text-2xl font-semibold text-left ">
 				Request a Quote
 			</h1>
 			<a className="ml-5 text-blue-600 text-[30px] leading-10 font-bold " href="https://docs.google.com/forms/d/e/1FAIpQLSee22ZeYdIplLkDW2tTdUyuWjp6yyFXQY5vvCy9mMRqKzEJIg/viewform?fbclid=IwAR2dNSwoKwMylEzX8Wnxg4yNij0g0of2OMevDxZST-VvriO01XhFY0Qa6Zw">Click here to contact us</a>
@@ -55,7 +55,7 @@ const Left = () => {
 							value={fullName}
 							onChange={handleChange}
 							placeholder="Full Name"
-							className="w-full px-4 bg-gray-200 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 							required
 						/>
 					</div>
@@ -70,7 +70,7 @@ const Left = () => {
 							value={phoneNumber}
 							placeholder="Phone Number"
 							onChange={handleChange}
-							className="w-full px-4 py-2 border bg-gray-200 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 							required
 						/>
 					</div>
@@ -87,7 +87,7 @@ const Left = () => {
 							placeholder="Email Address"
 							value={email}
 							onChange={handleChange}
-							className="w-full px-4 py-2 border bg-gray-200 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 							required
 						/>
 					</div>
@@ -102,12 +102,12 @@ const Left = () => {
 							value={subject}
 							placeholder="Subject"
 							onChange={handleChange}
-							className="w-full bg-gray-200 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 							required
 						/>
 					</div>
 				</div>
-				<div className="mb-4 sm:mx-5 mx-0">
+				<div className="mx-0 mb-4 sm:mx-5">
 					<label htmlFor="message" className="block mb-2">
 						Message
 					</label>
@@ -117,12 +117,12 @@ const Left = () => {
 						value={message}
 						placeholder="Your Message"
 						onChange={handleChange}
-						className="w-full bg-gray-200 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+						className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 						required
 					></textarea>
 				</div>
 
-				<div className="flex mx-5 justify-between">
+				<div className="flex justify-between mx-5">
 					<div>
 						<input
 							type="checkbox"
@@ -136,7 +136,7 @@ const Left = () => {
 						<button
 							type="submit"
 							style={buttonStyle}
-							className="px-10 sm:mx-5 mx-0 py-2 text-white bg-blue-500 rounded-3xl hover:bg-blue-600"
+							className="px-10 py-2 mx-0 text-white bg-blue-500 sm:mx-5 rounded-3xl hover:bg-blue-600"
 						>
 							Send Data
 						</button>
