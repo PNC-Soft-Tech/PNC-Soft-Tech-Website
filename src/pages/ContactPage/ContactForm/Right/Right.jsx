@@ -19,6 +19,7 @@ const Right = () => {
 				>
 					<FaPhone className="text-white"></FaPhone>
 				</div>
+
 				<div>
 					<h3 className="text-gray-400">Phone</h3>
 					<p>+88 0123 5465</p>
@@ -34,8 +35,8 @@ const Right = () => {
 				</div>
 				<div>
 					<h3 className="text-gray-400">Email</h3>
-					<p>mail@example.com</p>
-					<p>mail@example.com</p>
+					<p>pncsofttech@gmail.com</p>
+					{/* <p>mail@example.com</p> */}
 				</div>
 			</div>
 			<div className="flex items-start p-3 bg-gray-200 rounded-sm">
