@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import LogoImage from './logoImage.jpg'
+import LogoImage from './PNC-Soft-Tech-Rect.svg'
 import { BiLogoFacebook , BiLogoLinkedin, BiLogoSkype, BiLogoWhatsapp } from 'react-icons/bi';
 
 //bg-gradient-to-r from-teal-200 to-teal-500
@@ -14,9 +14,9 @@ export default function Tittle() {
     >
       <div className=" flex flex-row justify-between pt-[5px]  px-[40px] ">
         {/* Image part  */}
-        <div className="h-[50px]  w-[50px] ">
+        <div className="h-full  w-[120px] ">
           <Link to="/">
-            <img src={LogoImage} className ='h-full w-full object-cover rounded-full  ' alt="bholaBar" />
+            <img src={LogoImage} className ='h-full w-full object--cover rounded--full  ' alt="bholaBar" />
           </Link>
         </div>
         <div className =' text-[20px] font-bold leading-[40px] self-center md:text-[30px] text-[#fff] ' >
