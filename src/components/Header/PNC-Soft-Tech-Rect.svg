@@ -119,8 +119,8 @@
 <stop offset="0.710938" stop-color="#17E0F0"/>
 <stop offset="0.71875" stop-color="#18DFF1"/>
 <stop offset="0.718887" stop-color="#18DFF2"/>
-<stop offset="0.726562" stop-color="#18DFF3"/>
-<stop offset="0.734375" stop-color="#18DFF3"/>
+<stop offset="0.726562" stop-color="#00FAA8"/>
+<stop offset="0.734375" stop-color="#00FAA8"/>
 <stop offset="0.742187" stop-color="#18DEF4"/>
 <stop offset="0.75" stop-color="#19DEF5"/>
 <stop offset="0.757812" stop-color="#19DEF6"/>

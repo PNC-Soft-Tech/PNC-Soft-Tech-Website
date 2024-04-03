@@ -11,7 +11,7 @@ const Homedetails = () => {
       opacity:1
     }}>
       <div className='py-[150px] px-10  self-center flex flex-col justify-center '>
-        <h1 className='text-[#fff] text-[50px] self-center font-bold leading-[60px] tracking-wide '>PNC Soft Tech <span className='text-[#ff5e14]'>Since 2023</span></h1>
+        <h1 className='text-[#fff] text-[50px] self-center font-bold leading-[60px] tracking-wide '>PNC Soft Tech <span className='text-[#00FAA8]'>Since 2023</span></h1>
         <p className='text-[18px] pt-6 text-[#fff] leading-[32px] self-center tracking-wide font-normal '>
         PNC Soft Tech is a mobile app and web development company that offers a wide range of 
         </p>

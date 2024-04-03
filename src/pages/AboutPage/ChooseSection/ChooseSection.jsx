@@ -68,7 +68,7 @@ const Left = () => {
 			<div className="flex items-center">
 				<img src={img1} className="w-12 h-12 mr-4 rounded-full" alt="" />
 				<div>
-					<h2 className="text-xl">Md. Sina Khan</h2>
+					<h2 className="text-xl">Md. Rahat</h2>
 					<h3 className="text-base text-gray-500">Project Manager</h3>
 				</div>
 			</div>

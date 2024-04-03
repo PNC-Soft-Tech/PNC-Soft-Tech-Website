@@ -10,13 +10,13 @@ import tarikul from "../assets/profile/img/tarikul.jpg";
 
 export const Colors = {
 	primary: "#041436",
-	secondary: "#FF5E14",
+	secondary: "#00FAA8",
 	textColor: "#ffff",
 	secondaryBgColor: '#f4f7fb',
 	secondaryTextColor: '#041436',
 	primaryTextColor: '#fff',
 	primaryBgColor: '#071952',
-	excitetedColor: '#ff5e14'
+	excitetedColor: '#00FAA8'
 };
 
 const questions = [
@@ -108,13 +108,19 @@ const serviceDetails = [
 		details:
 			"PNC Soft Tech utilizes Flutter, a UI toolkit, to develop natively compiled applications for mobile, web, and desktop from a single codebase.",
 	},
+	{
+		image: img,
+		title: "React Native Development",
+		details:
+			"PNC Soft Tech utilizes React Native, a UI toolkit, to develop natively compiled applications for mobile, web, and desktop from a single codebase.",
+	},
 ];
 
 const teamDetails = [
 	{
 		src: rahat,
 		name: "Md Rahat",
-		designation: "Project Manager",
+		designation: "Flutter Developer & Project Manager",
 	},
 	{
 		src: sabuj,
@@ -124,17 +130,17 @@ const teamDetails = [
 	{
 		src: sujan,
 		name: "Sujan Mridha",
-		designation: "Frontend Developer",
+		designation: "MERN Stack Developer",
 	},
 	{
 		src: tarikul,
 		name: "Md Tarikul Islam",
-		designation: "Frontend Developer",
+		designation: "MERN Stack Developer",
 	},
 	{
 		src: anis,
 		name: "Md Anis Molla",
-		designation: "Frontend Developer",
+		designation: "MERN Stack Developer",
 	},
 	{
 		src: subal,

@@ -36,19 +36,19 @@ const PointSection = () => {
 				className="w-[85%]  mx-auto   items-center justify-between h-[2px] flex rounded-md"
 				style={lineStyle}
 			>
-				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-orange-500 rounded-full">
+				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-[#08F2C1] rounded-full">
 					<span>1</span>
 				</div>
-				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-orange-500 rounded-full">
+				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-[#08F2C1] rounded-full">
 					<span>2</span>
 				</div>
-				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-orange-500 rounded-full">
+				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-[#08F2C1] rounded-full">
 					<span>3</span>
 				</div>
-				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-orange-500 rounded-full">
+				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-[#08F2C1] rounded-full">
 					<span>4</span>
 				</div>
-				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-orange-500 rounded-full">
+				<div className="h-10 z-10 bg-slate-100 w-10 border-2 flex justify-center items-center overflow-hidden border-[#08F2C1] rounded-full">
 					<span>5</span>
 				</div>
 			</div>

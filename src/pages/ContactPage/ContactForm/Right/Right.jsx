@@ -4,7 +4,8 @@ import { AiTwotoneMail } from "react-icons/ai";
 
 const Right = () => {
   const faPhoneStyle = {
-    backgroundColor: "rgba(255, 94, 20,0.7)",
+    // backgroundColor: "rgba(255, 94, 20,0.7)",
+    backgroundColor: "#00FCA8",
     borderColor: Colors.secondary,
   };
   return (
@@ -35,7 +36,7 @@ const Right = () => {
         </div>
         <div>
           <h3 className="text-gray-400">Email</h3>
-          <p>pncsofttech@gmail.com</p>
+          <p>pncsoft.tech@gmail.com</p>
           {/* <p>mail@example.com</p> */}
         </div>
       </div>

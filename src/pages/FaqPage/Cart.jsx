@@ -11,9 +11,9 @@ const Cart = ({title, details}) => {
         <div onClick={() => setExpanded(!expanded)} className='flex flex-row justify-between py-[20px] pr-[25px] transition ease-in duration-700'>
             <p className='text-[16px] text-[#041436] font-medium   '>{title}</p>
              { expanded?
-                   <MdAddCircleOutline className='text-[22px] text-[#FF5E14] hover:text-black ' />
+                   <MdAddCircleOutline className='text-[22px] text-[#00FAA8] hover:text-black ' />
                :
-                <MdOutlineRemoveCircleOutline className='text-[22px] hover:text-[#FF5E14] text-black ' />
+                <MdOutlineRemoveCircleOutline className='text-[22px] hover:text-[#00FAA8] text-black ' />
              }
             
        </div>

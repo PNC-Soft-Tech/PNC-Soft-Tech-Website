@@ -27,15 +27,15 @@ export default function Tittle() {
        <div className=' hidden md:flex flex-row cursor-pointer justify-evenly px-[20px] self-center  h-[35px] gap-6 '>
 
             <a href="https://www.facebook.com/pncsoft.tech" className='cursor-pointer transition ease-in duration-500  p-1 border-solid border-[2px] border-[#fff]  hover:bg-[#fff] rounded-full '>
-                <BiLogoFacebook className='text-[22px] text-[#fff] hover:text-[#ff5e14] ' />
+                <BiLogoFacebook className='text-[22px] text-[#fff] hover:text-[#00FAA8] ' />
             </a>
   
             <a href="https://www.linkedin.com/company/pnc-soft-tech/" className=' p-1 border-solid border-[2px] border-[#fff] hover:bg-[#fff] rounded-full transition ease-in duration-500'>
-                <BiLogoLinkedin className='text-[22px] text-[#fff] hover:text-[#ff5e14] ' />
+                <BiLogoLinkedin className='text-[22px] text-[#fff] hover:text-[#00FAA8] ' />
             </a>
 
             <div className=' p-1 border-solid border-[2px] border-[#fff] hover:bg-[#fff] rounded-full transition ease-in duration-500'>
-                <BiLogoWhatsapp className='text-[22px] text-[#fff] hover:text-[#ff5e14] ' />
+                <BiLogoWhatsapp className='text-[22px] text-[#fff] hover:text-[#00FAA8] ' />
             </div>
 
            
