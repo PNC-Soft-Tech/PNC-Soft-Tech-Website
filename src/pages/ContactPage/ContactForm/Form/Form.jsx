@@ -3,7 +3,7 @@ import Right from "../Right/Right";
 
 const Form = () => {
 	return (
-		<div className="flex flex-col my-10 sm:flex-row ">
+		<div className="flex flex-col my-10 sm:flex-row">
 			<Left></Left>
 			<Right></Right>
 		</div>
