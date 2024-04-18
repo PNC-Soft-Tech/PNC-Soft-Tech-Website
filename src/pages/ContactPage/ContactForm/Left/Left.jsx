@@ -65,12 +65,6 @@ const Left = () => {
       <h1 className="mx-5 mb-5 text-2xl font-semibold text-left ">
         Request a Quote
       </h1>
-      {/* <a
-        className="ml-5 text-blue-600 text-[30px] leading-10 font-bold "
-        href="https://docs.google.com/forms/d/e/1FAIpQLSee22ZeYdIplLkDW2tTdUyuWjp6yyFXQY5vvCy9mMRqKzEJIg/viewform?fbclid=IwAR2dNSwoKwMylEzX8Wnxg4yNij0g0of2OMevDxZST-VvriO01XhFY0Qa6Zw"
-      >
-        Click here to contact us
-      </a> */}
 
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col w-full sm:flex-row">

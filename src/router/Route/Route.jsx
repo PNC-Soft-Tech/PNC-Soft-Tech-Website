@@ -11,50 +11,55 @@ import ServiceDetails from "../../pages/ProjectDetails/ProjectDetails.jsx";
 import Projects from "../../pages/ProjectsPage/Projects/Projects.jsx";
 import MainLayout from "../../Layout/MainLayout.jsx";
 import ProjectLayout from "../../Layout/ProjectLayout.jsx";
+import TermsAndConditions from "../../pages/TermsAndCondition/TermsAndConditions.jsx";
 
 const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <MainLayout></MainLayout>,
-		children: [
-			{
-				path: "/",
-				element: <Home></Home>,
-			},
-			{
-				path: "/contact",
-				element: <Contact></Contact>,
-			},
-			{
-				path: "/about",
-				element: <About></About>,
-			},
-			{
-				path: "/faq",
-				element: <FaqPage />,
-			},
-			{
-				path: "/services",
-				element: <ServicePage />,
-			},
-			{
-				path: "/service-details",
-				element: <ServiceDetails />
-			},
-			{
-				path: "/team",
-				element: <TeamPage />
-			},
-			{
-				path: "/projects",
-				element: <Projects />,
-			},
-		],
-	},
-	{
-		path: "*",
-		element: <NotFound />,
-	},
+  {
+    path: "/",
+    element: <MainLayout></MainLayout>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/faq",
+        element: <FaqPage />,
+      },
+      {
+        path: "/services",
+        element: <ServicePage />,
+      },
+      {
+        path: "/service-details",
+        element: <ServiceDetails />,
+      },
+      {
+        path: "/terms-condition",
+        element: <TermsAndConditions />,
+      },
+      {
+        path: "/team",
+        element: <TeamPage />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+    ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
+  },
 ]);
 
 export default router;

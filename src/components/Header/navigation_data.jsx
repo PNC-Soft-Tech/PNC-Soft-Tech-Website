@@ -1,54 +1,53 @@
 export const navData = [
-    {
-      title: 'Home',
-      path: '/'
-    },
-    {
-      title: 'Services',
-      path: '/services'
-    },
-    {
-      title: 'Projects',
-      subLinks: [
-        {
-          title: 'Projects1',
-          path: '/projects'
-        },
-        {
-          title: 'Projects2',
-          path: '/projects'
-        },
-        {
-          title: 'Projects3',
-          path: '/projects'
-        }
-      ]
-    },
-    {
-      title: 'Team',
-      path: '/team'
-    },
-    {
-      title: 'FAQ',
-      path: '/faq'
-    },
-    
-    {
-      title: 'About Us',
-      path: '/about'
-    },
-  
-    {
-      title: 'Contact Us',
-      path: '/contact'
-    },
-   
-      
+  {
+    title: "Home",
+    path: "/",
+  },
+  {
+    title: "Services",
+    path: "/services",
+  },
+  {
+    title: "Projects",
+    subLinks: [
+      {
+        title: "Projects1",
+        path: "/projects",
+      },
+      {
+        title: "Projects2",
+        path: "/projects",
+      },
+      {
+        title: "Projects3",
+        path: "/projects",
+      },
+    ],
+  },
+  {
+    title: "Team",
+    path: "/team",
+  },
+  {
+    title: "FAQ",
+    path: "/faq",
+  },
 
-    ]
+  {
+    title: "About Us",
+    path: "/about",
+  },
+  {
+    title: "Terms&Condition",
+    path: "/terms-condition",
+  },
 
+  {
+    title: "Contact Us",
+    path: "/contact",
+  },
+];
 
-    
 // <ul className="flex justify-between">
 // 				<li className="">
 // 					<Link to="/">Home</Link>
