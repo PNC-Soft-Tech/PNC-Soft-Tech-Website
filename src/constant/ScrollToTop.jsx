@@ -35,7 +35,7 @@ export const ScrollToTop = () => {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0',
-          'bg-[#FF5E14] hover:bg-[#c54f19]  inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity ',
+          'bg-[#00FAA8] hover:bg-[#c54f19]  inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity ',
         )}
       >
         <LiaAngleDoubleUpSolid className="h-5 w-5 text-[50px] font-bold leading-[80px] " aria-hidden="true" />

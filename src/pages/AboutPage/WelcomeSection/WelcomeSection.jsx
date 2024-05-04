@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 const Card = ({ type, text, subText }) => {
 	const faPhoneStyle = {
-		backgroundColor: "rgba(255, 94, 20,0.6)",
+		backgroundColor: "#02FAAD",
 		borderColor: Colors.secondary,
 	};
 	return (
@@ -43,14 +43,12 @@ const Left = () => {
 	return (
 		<div className="md:w-[45%] sm:[50%] w-[90%] mx-auto mt-10 md:mx-10 sm:mx-5">
 			<div>
-				<h3 className="font-semibold text-xl text-gray-300 mb-4">
+				<h3 className="font-semibold text-xl text-gray-500 mb-4">
 					WELCOME TO THE PNC
 				</h3>
 				<h1 className="sm:text-2xl text-xl font-bold text-gray-500 mb-4">
 					THE BEST
-					<span style={spanHederElement} className="">
-						RELIABLE SOLUTION
-					</span>
+					<span style={spanHederElement} className=""> RELIABLE SOLUTION </span>
 					FOR INDUSTRIAL WORKS
 				</h1>
 				<p className="mb-4 text-gray-600 font-medium">
@@ -67,8 +65,8 @@ const Left = () => {
 				</p>
 			</div>
 			<div className="flex lg:flex-row flex-col justify-between">
-				<Card type="phone" text="Phone:" subText="+123 4567 8910" />
-				<Card type="email" text="Email:" subText="mail@example.com" />
+				<Card type="phone" text="Phone:" subText="+8801793278360" />
+				<Card type="email" text="Email:" subText="pncsoft.tech@gmail.com" />
 			</div>
 		</div>
 	);

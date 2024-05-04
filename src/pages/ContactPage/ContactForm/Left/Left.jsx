@@ -154,7 +154,7 @@ const Left = () => {
               name="checkbox1"
               value="option1"
             />
-            <label htmlFor="checkbox1">Also subscribe us</label>
+            <label htmlFor="checkbox1"> Also subscribe us</label>
           </div>
           <div>
             <button

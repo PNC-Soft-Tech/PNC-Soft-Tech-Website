@@ -37,7 +37,7 @@ const Footer = () => {
                     <BiLogoGmail />
                   </p>
                 </h3>
-                <p className="text-[18px] text-[#fff] font-normal " >pncsofttech@gmail.com</p>
+                <p className="text-[18px] text-[#fff] font-normal " >pncsoft.tech@gmail.com</p>
               </div>
 
               <div className="flex flex-row gap-3">
@@ -79,27 +79,27 @@ const Footer = () => {
           </div>
 
           <div className=" w-[100%] lg:w-[25%] flex flex-col gap-2 item-center ">
-          <h1 className="text-[25px] text-[#ffff] mb-4 font-semibold tracking-widest" >Our Social Media</h1>
+          <h1 className="text-lg text-[#ffff] mb-4 font-semibold tracking-widest" >Our Social Media</h1>
 
             <a href="https://www.facebook.com/pncsoft.tech"  className="flex flex-row gap-3 cursor-pointer ">
                 <p  className='cursor-pointer bg-[#505e96]  p-2 border-solid border-[0px] border-[#fff]  hover:bg-[#fff] rounded-full transition ease-in duration-700 '>
-                          <BiLogoFacebook className='text-[18px] text-[#fff] hover:text-[#ff5e14] ' />
+                          <BiLogoFacebook className='text-[18px] text-[#fff] hover:text-[#00FAA8] ' />
                 </p>
-                <p className="text-[18px] hover:text-[#ff5e14] transition ease-in duration-700 text-[#fff] p-2 ">Facebook</p>
+                <p className="text-[18px] hover:text-[#00FAA8] transition ease-in duration-700 text-[#fff] p-2 ">Facebook</p>
             </a>
 
             <a href="https://www.linkedin.com/company/pnc-soft-tech/"  className="flex flex-row gap-3 cursor-pointer ">
                 <p  className='cursor-pointer bg-[#505e96]  p-2 border-solid border-[0px] border-[#fff]  hover:bg-[#fff] rounded-full transition ease-in duration-700 '>
-                          <BiLogoLinkedin className='text-[18px] text-[#fff] hover:text-[#ff5e14] ' />
+                          <BiLogoLinkedin className='text-[18px] text-[#fff] hover:text-[#00FAA8] ' />
                 </p>
-                <p className="text-[18px] hover:text-[#ff5e14] transition ease-in duration-700 text-[#fff] p-2 ">Linkedin</p>
+                <p className="text-[18px] hover:text-[#00FAA8] transition ease-in duration-700 text-[#fff] p-2 ">Linkedin</p>
             </a>
 
             <a href=""  className="flex flex-row gap-3 cursor-pointer ">
                 <p  className='cursor-pointer bg-[#505e96]  p-2 border-solid border-[0px] border-[#fff]  hover:bg-[#fff] rounded-full transition ease-in duration-700 '>
-                          <BiLogoWhatsapp className='text-[20px] text-[#fff] hover:text-[#ff5e14] ' />
+                          <BiLogoWhatsapp className='text-[20px] text-[#fff] hover:text-[#00FAA8] ' />
                 </p>
-                <p className="text-[18px] hover:text-[#ff5e14] transition ease-in duration-700 text-[#fff] p-2 ">Whatsapp</p>
+                <p className="text-[18px] hover:text-[#00FAA8] transition ease-in duration-700 text-[#fff] p-2 ">Whatsapp</p>
             </a>
 
 

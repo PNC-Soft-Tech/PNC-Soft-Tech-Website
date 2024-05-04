@@ -25,7 +25,7 @@ const Details = () => {
 }
 
 const SideList = ({title}) =>(
-    <div className='w-full h-[60px] border-solid border-[1px] border-gray-200 rounded-[5px] px-6 py-4 flex flex-row justify-between hover:text-[#FF5E14] hover:bg-gray-50  hover:border-l-[3px] hover:border-[#fd7e14] '>
+    <div className='w-full h-[60px] border-solid border-[1px] border-gray-200 rounded-[5px] px-6 py-4 flex flex-row justify-between hover:text-[#00FAA8] hover:bg-gray-50  hover:border-l-[3px] hover:border-[#fd7e14] '>
         <p className=' text-[18px] leading-[30px] font-[700px] '>{title}</p>
         <p><GoArrowRight className='text-[22px]  ' /></p>
     </div>

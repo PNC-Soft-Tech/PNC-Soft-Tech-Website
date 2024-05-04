@@ -11,16 +11,20 @@ export const navData = [
     title: "Projects",
     subLinks: [
       {
-        title: "Projects1",
-        path: "/projects",
+        title: "MERN Projects",
+        path: "projects/mern",
       },
       {
-        title: "Projects2",
-        path: "/projects",
+        title: "PHP Projects",
+        path: "projects/php",
       },
       {
-        title: "Projects3",
-        path: "/projects",
+        title: "Flutter Projects",
+        path: "projects/flutter",
+      },
+      {
+        title: "ReactNative Projects",
+        path: "projects/react-native",
       },
     ],
   },
@@ -31,6 +35,16 @@ export const navData = [
   {
     title: "FAQ",
     path: "/faq",
+  },
+
+  {
+    title: "About Us",
+    path: "/about",
+  },
+
+  {
+    title: "Contact Us",
+    path: "/contact",
   },
 
   {

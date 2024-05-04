@@ -18,20 +18,20 @@ const TeamCart = ({teamDetail}) => {
        
        <div className='flex flex-row justify-evenly px-[20px] mt-[-5px] '>
 
-            <div className=' p-1 border-solid border-[1px] border-[#ff5e14] hover:bg-[#ff5e14] rounded-full '>
-                <BiLogoFacebook className='text-[22px] text-[#ff5e14] hover:text-[#fff] ' />
+            <div className=' p-1 border-solid border-[1px] border-[#00FAA8] hover:bg-[#00FAA8] rounded-full '>
+                <BiLogoFacebook className='text-[22px] text-[#00FAA8] hover:text-[#fff] ' />
             </div>
 
-            <div className=' p-1 border-solid border-[1px] border-[#ff5e14] hover:bg-[#ff5e14] rounded-full '>
-                <BiLogoInstagram className='text-[22px] text-[#ff5e14] hover:text-[#fff] ' />
+            <div className=' p-1 border-solid border-[1px] border-[#00FAA8] hover:bg-[#00FAA8] rounded-full '>
+                <BiLogoInstagram className='text-[22px] text-[#00FAA8] hover:text-[#fff] ' />
             </div>
 
-            <div className=' p-1 border-solid border-[1px] border-[#ff5e14] hover:bg-[#ff5e14] rounded-full '>
-                <BiLogoLinkedin className='text-[22px] text-[#ff5e14] hover:text-[#fff] ' />
+            <div className=' p-1 border-solid border-[1px] border-[#00FAA8] hover:bg-[#00FAA8] rounded-full '>
+                <BiLogoLinkedin className='text-[22px] text-[#00FAA8] hover:text-[#fff] ' />
             </div>
 
-            <div className=' p-1 border-solid border-[1px] border-[#ff5e14] hover:bg-[#ff5e14] rounded-full '>
-                <BiLogoSkype className='text-[22px] text-[#ff5e14] hover:text-[#fff] ' />
+            <div className=' p-1 border-solid border-[1px] border-[#00FAA8] hover:bg-[#00FAA8] rounded-full '>
+                <BiLogoSkype className='text-[22px] text-[#00FAA8] hover:text-[#fff] ' />
             </div>
 
             

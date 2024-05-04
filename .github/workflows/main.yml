@@ -30,8 +30,8 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: "ftp.pncsoft.tech"
-          username: "pncsofttforntend@pncsoft.tech"
+          username: "pncsofttech@pncsoft.tech"
           # dangerous-clean-slate: true
-          password: "MUf;mmx9CFoS"
+          password: "fNe(1^rqH5Ae"
           port: 21
           local-dir: ./dist/

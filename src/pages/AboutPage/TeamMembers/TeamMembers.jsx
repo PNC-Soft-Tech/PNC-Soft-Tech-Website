@@ -41,13 +41,13 @@ const EmployeeCard = ({ employee }) => {
 						-{position}
 					</h4>
 					<div className="flex mt-4  justify-between items-start text-white mr-2">
-						<div className="w-10 h-10 rounded-full cursor-pointer transition-all duration-300 ease-in-out hover:bg-orange-500 border-2 flex justify-center items-center border-orange-600">
+						<div className="w-10 h-10 rounded-full cursor-pointer transition-all duration-300 ease-in-out hover: border-[#00FAA8] border-2 flex justify-center items-center  bg-[#00FAA8]">
 							<FaLinkedinIn className="hover:text-white" />
 						</div>
-						<div className="w-10 h-10 rounded-full cursor-pointer transition-all duration-300 ease-in-out hover:bg-orange-500 border-2 flex justify-center items-center border-orange-600 ">
+						<div className="w-10 h-10 rounded-full cursor-pointer transition-all duration-300 ease-in-out hover: border-[#00FAA8] border-2 flex justify-center items-center  bg-[#00FAA8] ">
 							<FaSquareFacebook className="hover:text-white" />
 						</div>
-						<div className="w-10 h-10 rounded-full cursor-pointer transition-all duration-300 ease-in-out hover:bg-orange-500 border-2 flex justify-center items-center border-orange-600">
+						<div className="w-10 h-10 rounded-full cursor-pointer transition-all duration-300 ease-in-out hover: border-[#00FAA8] border-2 flex justify-center items-center  bg-[#00FAA8]">
 							<FaGithub className="hover:text-white" />
 						</div>
 					</div>

@@ -19,7 +19,7 @@ const Cart = ({serviceList}) =>{
     return(
         <div className='w-[260px] h-[300px] border-solid border-[0.5px] border-[#6b707a] flex flex-col gap-3 p-[20px] justify-center '>
             <div className=' flex self-center '>
-               < RiFileList3Line className="text-[70px] text-[#ff5e14] " />
+               < RiFileList3Line className="text-[70px] text-[#00FAA8] " />
             </div> 
 
             <div className='text-[48px] font-bold flex self-center  text-[#fff] '>{Math.floor(Math.random()*1000)}+</div>
