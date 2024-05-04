@@ -29,9 +29,9 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          server: ${{secrets.FTP_SERVER}}
-          username: ${{secrets.FTP_USERNAME}}
+          server: "ftp.pncsoft.tech"
+          username: "pncsofttforntend@pncsoft.tech"
           # dangerous-clean-slate: true
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: "MUf;mmx9CFoS"
           port: 21
           local-dir: ./dist/
