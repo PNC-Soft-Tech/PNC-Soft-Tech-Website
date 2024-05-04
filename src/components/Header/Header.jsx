@@ -9,6 +9,7 @@ const Header = () => {
     backgroundColor: Colors.secondary,
     color: Colors.textColor,
   };
+
   return (
     <>
       <Tittle />
