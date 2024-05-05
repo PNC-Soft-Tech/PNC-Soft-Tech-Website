@@ -38,11 +38,6 @@ export const navData = [
   },
 
   {
-    title: "About Us",
-    path: "/about",
-  },
-
-  {
     title: "Contact Us",
     path: "/contact",
   },
@@ -52,14 +47,11 @@ export const navData = [
     path: "/about",
   },
   {
-    title: "Terms&Condition",
+    title: "Terms & Condition",
     path: "/terms-condition",
   },
 
-  {
-    title: "Contact Us",
-    path: "/contact",
-  },
+
 ];
 
 // <ul className="flex justify-between">
