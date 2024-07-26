@@ -18,6 +18,7 @@ const Home = () => {
       <meta property="og:description" content="PNC Soft Tech" />
       <meta property="og:type" content="website" />
 	  <meta name="google-site-verification" content="MWLJ5SvtAhyJ6sVDa5RvLS7PkuGJ8oE2oy9bdKMAa7c" />
+	  </Helmet>
  <ScrollToTop />
 		<Homedetails />
 		<ReliablePart />
@@ -25,7 +26,7 @@ const Home = () => {
 		<Discover />
 		<SuccessList />
 		<BestPart />
- </Helmet>
+
 
 	</div>
   )
