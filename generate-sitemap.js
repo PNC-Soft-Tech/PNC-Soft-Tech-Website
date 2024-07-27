@@ -14,6 +14,13 @@ const generateSitemap = async () => {
 
   sitemap.write({ url: '/', changefreq: 'daily', priority: 1.0 });
   sitemap.write({ url: '/about', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/contact', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/services', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/team', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/projects/mern', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/projects/php', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/projects/flutter', changefreq: 'daily', priority: 0.1 });
+  sitemap.write({ url: '/projects/react-native', changefreq: 'daily', priority: 0.1 });
   // Add more URLs as needed
 
   sitemap.end();
