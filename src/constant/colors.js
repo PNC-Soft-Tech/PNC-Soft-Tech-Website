@@ -74,15 +74,15 @@ const questionType = [
 const serviceDetails = [
 	{
 		image: img,
-		title: "Mobile App Development:",
+		title: "Mobile App Development",
 		details:
-			"PNC Soft Tech specializes in developing mobile applications for iOS and Android platforms.",
+			"PNC Soft Tech specializes in developing mobile applications for iOS and Android platforms using Flutter or React Native.",
 	},
 	{
 		image: img,
-		title: "Web Development",
+		title: "Web Design",
 		details:
-			"PNC Soft Tech offers web development services using a variety of technologies, including HTML, CSS, Vanilla JS, jQuery, Bootstrap, Tailwind CSS, and Bulma.",
+			"PNC Soft Tech offers web design services using a variety of technologies, including HTML, CSS, Vanilla JS, jQuery, Bootstrap, Tailwind CSS, and Bulma.",
 	},
 	{
 		image: img,
@@ -92,15 +92,15 @@ const serviceDetails = [
 	},
 	{
 		image: img,
-		title: "Database Integration",
+		title: "API Integration",
 		details:
-			"PNC Soft Tech has experience in working with MySQL, a widely used relational database management system.",
+			"PNC Soft Tech has experience in integrating APIs in ReactJs,NextJS,raw HTML,CSS,Bootstrap and Flutter/React Navtive Application",
 	},
 	{
 		image: img,
 		title: "MERN Stack Development",
 		details:
-			"PNC Soft Tech specializes in MERN stack development, which includes MongoDB (NoSQL database), Express.js (web application framework), React.js .",
+			"PNC Soft Tech specializes in MERN stack development, which includes MongoDB (NoSQL database),NodeJS, Express.js (web application framework), React.js .",
 	},
 	{
 		image: img,
@@ -120,7 +120,7 @@ const teamDetails = [
 	{
 		src: rahat,
 		name: "Md Rahat",
-		designation: "Flutter Developer & Project Manager",
+		designation: "Web and App Developer & Project Manager",
 	},
 	{
 		src: sabuj,
